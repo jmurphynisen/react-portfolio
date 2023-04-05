@@ -1,0 +1,94 @@
+.experience-page {
+
+    .text-zone {
+        position: absolute;
+        left: 10%;
+        top: 35%;
+        transform: translateY(-50%);
+        width: 70%;
+        max-height: 90%;
+    }
+
+    figure {
+        background: #9595eb80;
+        color: #ffff;
+    }
+    
+    figcaption {
+        color: #fff;
+        font-size: 27px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        &::before {
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: .6;
+        }
+
+        &::after {
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: .6;
+        }
+        img {
+            width: 32px;
+            margin-left: 20px;
+            opacity: 0;
+            height: auto;
+            animation: rotateIn 1s linear both;
+            animation-delay: 1.4s;
+        }
+    }
+
+    h1 {
+        color: #fff;
+        font-size: 15px;
+        margin: 0;
+        font-family: 'Coolvetica';
+        font-weight: 400;
+
+        &::before {
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: -40px;
+            left: 15px;
+            opacity: .6;
+        }
+
+        &::after {
+            font-family: 'La Belle Aurore';
+            color: #ffd700;
+            font-size: 18px;
+            position: absolute;
+            margin-top: 18px;
+            margin-left: 20px;
+            animation: fadeIn 1s 1.7s backwards;
+            opacity: .6;
+        }
+    }
+
+    .highlightme { background-color:lightblue; }
+
+    li {
+        color: #ffff;
+        margin-top: 20px;
+        font-weight: 500;
+        font-size: 15px;
+        font-family: 'Coolvetica';
+        letter-spacing: 3px;
+        animation: fadeIn 1s 1.8s backwards;
+    }
+}
